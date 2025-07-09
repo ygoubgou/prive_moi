@@ -1,0 +1,150 @@
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+.header-bar {
+    background: radial-gradient(circle at center, #2c5364, #203a43, #0f2027);
+    padding: 70px 30px 50px 30px;
+    border-radius: 0 0 40px 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    background-size: 200% 200%;
+    transition: background-position 0.6s ease;
+}
+
+.header-bar:hover {
+    background-position: 75% 25%;
+}
+
+/* Fond rotatif doux */
+.header-bar::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.05), transparent 70%);
+    animation: rotateGlow 10s linear infinite;
+    z-index: 0;
+}
+
+/* Conteneur des cœurs */
+.heart-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: visible;
+    z-index: 2;
+    display: none;
+}
+
+.header-bar:hover .heart-container {
+    display: block;
+}
+
+/* Style des petits coeurs */
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    clip-path: polygon(
+      50% 0%, 
+      61% 14%, 
+      75% 14%, 
+      85% 27%, 
+      85% 45%, 
+      50% 80%, 
+      15% 45%, 
+      15% 27%, 
+      25% 14%, 
+      39% 14%
+    );
+    opacity: 0.8;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: fallRotateHeart;
+}
+
+/* Animation : chute + rotation infinie */
+@keyframes fallRotateHeart {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(120vh) rotate(1080deg); /* 3 tours complets */
+        opacity: 0;
+    }
+}
+
+/* Animations personnalisées : vitesses et delays différents */
+.heart:nth-child(1) {
+    left: 10%;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+.heart:nth-child(2) {
+    left: 25%;
+    animation-duration: 6s;
+    animation-delay: 1.2s;
+}
+
+.heart:nth-child(3) {
+    left: 40%;
+    animation-duration: 4.5s;
+    animation-delay: 0.7s;
+}
+
+.heart:nth-child(4) {
+    left: 60%;
+    animation-duration: 5.5s;
+    animation-delay: 1.7s;
+}
+
+.heart:nth-child(5) {
+    left: 80%;
+    animation-duration: 4.7s;
+    animation-delay: 0.3s;
+}
+
+.header-title, .header-subtitle {
+    position: relative;
+    z-index: 3;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.header-title {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+</style>
+
+<div class="header-bar">
+    <div class="heart-container">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+    <div class="header-title">Yamba Portfolio</div>
+    <div class="header-subtitle">Créativité. Data. IA. Impact.</div>
+</div>
+""", unsafe_allow_html=True)
