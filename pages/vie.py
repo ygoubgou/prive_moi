@@ -230,10 +230,10 @@ st.markdown("""
 
 # Liste d'URLs par défaut (tu pourras les changer)
 images = [
-    "https://picsum.photos/id/1015/900/400",
-    "https://picsum.photos/id/1016/900/400",
-    "https://picsum.photos/id/1018/900/400",
-    "https://picsum.photos/id/1020/900/400"
+    "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/moi_1.jpg",
+    "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/moi_2.jpg",
+    "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/moi.jpg",
+    "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/IA_image.png"
 ]
 
 # Initialise le compteur dans session_state si pas existant
