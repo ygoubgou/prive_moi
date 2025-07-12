@@ -12,6 +12,18 @@ hide_sidebar_style = """
 """
 st.markdown(hide_sidebar_style, unsafe_allow_html=True)
 
+
+#st.markdown("---")
+#st.markdown("### 🔙 Revenir à l'accueil")
+
+st.markdown("""
+    <a href="/" target="_self">
+        <button style="padding:10px 20px; font-size:16px; border-radius:8px; background-color:#4CAF50; color:white; border:none; cursor:pointer;">
+            🏠 Retour à l'accueil
+        </button>
+    </a>
+""", unsafe_allow_html=True)
+
 st.markdown("<h1 style='text-align: center; color: #FF914D;'>📸 Tout savoir sur <span style='color:#4FC3F7;'>Yamba</span> en image</h1>", unsafe_allow_html=True)
 
 

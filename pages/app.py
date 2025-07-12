@@ -146,6 +146,19 @@ with st.sidebar:
         </div>
     """, unsafe_allow_html=True)
 
+
+with st.sidebar:
+    #st.markdown("---")
+    #st.markdown("### 🔙 Revenir à l'accueil")
+
+    st.markdown("""
+        <a href="/" target="_self">
+            <button style="padding:10px 20px; font-size:16px; border-radius:8px; background-color:#4CAF50; color:white; border:none; cursor:pointer;">
+                🏠 Retour à l'accueil
+            </button>
+        </a>
+    """, unsafe_allow_html=True)
+
 # --- CSS personnalisé ---
 st.markdown("""
     <style>
