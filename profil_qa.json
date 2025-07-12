@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Quelle est la formation de Yamba ?",
+    "answer": "Yamba est diplômé en économie appliquée, ingénierie des données, et suit un Mastère Spécialisé MQDE à l’ENSAE Paris."
+  },
+  {
+    "question": "Quelles sont ses compétences techniques ?",
+    "answer": "Python, R, Stata, SAS, Git, GitLab, Power BI, Streamlit, économétrie, machine learning, analyse financière."
+  },
+  {
+    "question": "Où travaille-t-il actuellement ?",
+    "answer": "Yamba est Data Engineer / Analyst chez Cerfrance Loire-Atlantique à Nantes."
+  },
+  {
+    "question": "Comment le contacter ?",
+    "answer": "Par email à lamoussama225@gmail.com ou téléphone au +33 7 53 60 73 32."
+  },
+  {
+    "question": "Dans quels domaines il a enseigné ?",
+    "answer": "Mathématiques, statistiques et économétrie appliquée à l’Université d’Angers."
+  }
+]

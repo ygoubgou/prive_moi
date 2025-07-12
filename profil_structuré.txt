@@ -1,0 +1,34 @@
+## Présentation
+
+Yamba Arsène GOUBGOU est un économiste de formation passionné par l’analyse des données. Il combine une expertise en économie appliquée et en data science pour fournir des analyses quantitatives robustes.
+
+## Formation
+
+- Licence en économie appliquée – Université Thomas Sankara (Major de promotion)
+- Master en ingénierie des données – Université d’Angers (Major de promotion)
+- Mastère Spécialisé MQDE – ENSAE Paris
+
+## Compétences techniques
+
+- Langages : Python, R, Stata, SAS
+- Outils : Git, GitLab, Power BI, Excel
+- Modélisation : ARIMA, VAR, GARCH, modèles linéaires et non-linéaires
+- Intérêts : économie bancaire, transition écologique, économie de l’innovation
+
+## Expérience professionnelle
+
+**Cerfrance Loire-Atlantique (Nantes)**  
+Poste : Data Engineer / Data Analyst  
+- Développement d’outils avec Python (Polars, Pandas, Matplotlib, Streamlit)
+- Visualisation de données avec Power BI et Excel
+- Travail en environnement agile avec Git/GitLab
+
+**Université d’Angers**  
+Poste : Enseignant vacataire  
+- Cours de statistiques, économétrie et mathématiques pour économistes
+- Public : Licence et Master
+
+## Contact
+
+- Email : lamoussama225@gmail.com
+- Téléphone : +33 7 53 60 73 32
