@@ -237,7 +237,7 @@ st.markdown("""
 
 <div class="social-icons">
     <a href="https://www.linkedin.com/in/yamba-ars%C3%A8ne-goubgou/" target="_blank">🔗</a>
-    <a href="https://www.instagram.com/ton-profil-insta/" target="_blank">📸</a>
+    <a href="https://github.com/ygoubgou" target="_blank">📸</a>
     <a href="https://www.facebook.com/arsene.goubgou.1">📘</a>
 </div>
 """, unsafe_allow_html=True)

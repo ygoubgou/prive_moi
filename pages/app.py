@@ -305,6 +305,7 @@ elif selected == "Projets":
             "desc": """
 **Objectif :** Évaluer l'impact du veuvage sur les personnes âgées en Europe.  
 **Méthodes utilisées :** Machine Learning, approche de type Difference-in-Differences (DiD), données socioéconomiques issues d'enquêtes européennes.
+🔗 [Accéder à l'application Streamlit](https://dossierdiscriminationmarchedutravail.streamlit.app/)
 """,
             "img": "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/veuvage.jpg",
             "lien": None
