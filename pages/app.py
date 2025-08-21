@@ -340,7 +340,7 @@ elif selected == "Projets":
 - Automatisation des **visualisations interactives** (Dash / Streamlit) connectées à la BDD.  
 🔗 [Accéder à l'application Streamlit](https://securiteroutiere-yamba.streamlit.app/)
 """,
-            "img": "https://github.com/ygoubgou/prive_moi/blob/private/Images/im.png",
+            "img": "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/im.png",
             "lien": None
         }
     ]
