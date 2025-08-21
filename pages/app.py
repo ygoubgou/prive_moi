@@ -339,8 +339,8 @@ elif selected == "Projets":
 - Base de données **PostgreSQL** hébergée sur le cloud pour stocker les données  
 - Automatisation des **visualisations interactives** (Dash / Streamlit) connectées à la BDD.  
 """,
-            "img": "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/accidents.jpg",
-            "lien": None
+            "img": "https://github.com/ygoubgou/prive_moi/blob/private/Images/im.png",
+            "lien": https://securiteroutiere-yamba.streamlit.app/
         }
     ]
 
