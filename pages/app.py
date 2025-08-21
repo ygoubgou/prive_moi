@@ -338,9 +338,10 @@ elif selected == "Projets":
 - Machine Learning (Random Forest, XGBoost, KNN) pour la prédiction  
 - Base de données **PostgreSQL** hébergée sur le cloud pour stocker les données  
 - Automatisation des **visualisations interactives** (Dash / Streamlit) connectées à la BDD.  
+🔗 [Accéder à l'application Streamlit](https://securiteroutiere-yamba.streamlit.app/)
 """,
             "img": "https://github.com/ygoubgou/prive_moi/blob/private/Images/im.png",
-            "lien": https://securiteroutiere-yamba.streamlit.app/
+            "lien": None
         }
     ]
 
