@@ -304,7 +304,7 @@ elif selected == "Projets":
             "nom": "🧓 Évaluation d'impact du veuvage",
             "desc": """
 **Objectif :** Évaluer l'impact du veuvage sur les personnes âgées en Europe.  
-**Méthodes utilisées :** Machine Learning, approche de type Difference-in-Differences (DiD), données socioéconomiques issues d'enquêtes européennes.
+**Méthodes utilisées :** Machine Learning, approche de type Difference-in-Differences (DiD), données socioéconomiques issues d'enquêtes européennes.  
 🔗 [Accéder à l'application Streamlit](https://dossierdiscriminationmarchedutravail.streamlit.app/)
 """,
             "img": "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/veuvage.jpg",
@@ -328,6 +328,19 @@ elif selected == "Projets":
 """,
             "img": "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/chomage.png",
             "lien": None
+        },
+        {
+            "nom": "🚦 Analyse des accidents de la route",
+            "desc": """
+**Objectif :** Construire un pipeline complet pour analyser et prédire la gravité des accidents de la route en France.  
+**Méthodes utilisées :**  
+- Économétrie (Logit/Probit ordonné, Poisson) pour les déterminants de la gravité  
+- Machine Learning (Random Forest, XGBoost, KNN) pour la prédiction  
+- Base de données **PostgreSQL** hébergée sur le cloud pour stocker les données  
+- Automatisation des **visualisations interactives** (Dash / Streamlit) connectées à la BDD.  
+""",
+            "img": "https://raw.githubusercontent.com/ygoubgou/share.py/refs/heads/master/graphiques/accidents.jpg",
+            "lien": None
         }
     ]
 
@@ -347,7 +360,7 @@ elif selected == "Références":
     references = [
         {"nom": "Hamidou Traoré", "poste": "Developpeur full stack", "citation": "Une personne créative, rigoureuse, gentille et toujours force de proposition."},
         {"nom": "Pauline Pedehour", "poste": "Enseignante chercheuse", "citation": "Une excellente enseignante, capable de résoudre des problèmes complexes avec élégance."},
-        {"nom": "Alexandre Tolub", "poste": "Directeur conseil et innovation", "citation": "Un exemple."}
+        {"nom": "Alexandre Tolub", "poste": "Directeur conseil et innovation chez CerFrance", "citation": "Un modèle de personnalité!"}
     ]
     for ref in references:
         st.subheader(f"{ref['nom']} - {ref['poste']}")
@@ -378,8 +391,8 @@ elif selected == "Formation":
 
     st.subheader("📚 Formation académique")
     st.markdown("""
-- **Mastère Spécialisé MQDE**, ENSAE Paris *(2025 - 2026)*  
-  *Modélisation et Méthodes Quantitatives pour la Décision Économique*
+- **Mastère Spécialisé MQDEF**, ENSAE Paris *(2025 - 2026)*  
+  *Modélisation et Méthodes Quantitatives pour la Décision Économique et Financière*
 
 - **Master 2 Économie Appliquée - Parcours Ingénierie des Données**, Université d'Angers  
   *Major de promotion – Mention Bien*
